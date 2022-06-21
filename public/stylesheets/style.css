@@ -1,0 +1,153 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.row{
+  width: 1000px;
+  margin: 0px auto;
+  padding: 60px 0px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+body {
+  font-family:"Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.logo-name{
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #333;
+}
+header{
+  background: url('../images/banner.webp') center no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 100%;
+  background-color: #243853;
+  position: relative;
+}
+.navbar{
+  position: sticky;
+  top: 0px;
+  z-index: 9;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+  padding: 0px 50px;
+  background: rgb(250, 250, 250);
+}
+.navbar ul{
+  list-style-type: none;
+  display: flex;
+}
+.active-link{
+  color: #3b5a7e;
+}
+.navbar ul li a{
+  height: 100%;
+  text-decoration: none;
+  color: #333;
+  /* background-color: aqua; */
+  display: block;
+  padding: 0px 20px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.navbar ul li a:hover{
+  color: #3b5a7e;
+}
+.header-info{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+}
+.header-info h1{
+  color: white;
+  font-size: 6rem;
+  font-family: Madefor;
+  font-weight: normal;
+  line-height: 6rem;
+}
+.header-info .description{
+  margin-top: 20px;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+.header-info .take-rdv{
+  color: white;
+  padding: 10px 20px;
+  font-size: 17px;
+  border: 1px solid #316aab;
+  width: 200px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 3px;
+  transition: background 0.8s ease;
+}
+.header-info .take-rdv:hover{
+  background-color:  #316aab;
+  cursor: pointer;
+}
+
+/* Section nos expertises */
+.nos-expertises{
+  background-color: rgb(248, 242, 235);
+  height: 100vh;
+  width: 100%;
+}
+.box-expert{
+  display: flex;
+  position: relative;
+}
+.expert-left{
+  width: 72%;
+  height: 500px;
+}
+.expert-left .img-expert img{
+  width: 100%;
+}
+.expert-right{
+  position: absolute;
+  right: 0px;
+  top: 300px;
+  background: rgb(255, 255, 255);
+  width: 400px;
+  height: 500px;
+  z-index: 9;
+  border-radius: 5px;
+}
+.box-expert .info{
+  padding: 40px 20px;
+}
+.box-expert .info h2{
+  font-family: Madefor;
+  font-size: 40px;
+  font-weight: normal;
+  color: #333;
+}
+.box-expert .info .description{
+  margin-top: 20px;
+  color: #555;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+}
+.box-expert .info .savoir-plus{
+  color: #316aab;
+  padding: 10px 20px;
+  font-size: 17px;
+  border: 1px solid #316aab;
+  width: 200px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 3px;
+  transition: background 0.8s ease;
+}
+.box-expert .info .savoir-plus:hover{
+  background-color:  #316aab;
+  cursor: pointer;
+  color: white;
+}
